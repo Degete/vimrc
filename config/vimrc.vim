@@ -1,6 +1,6 @@
 " Edit .vimrc file
 
-autocmd BufWritePost .vimrc source $MYVIMRC | " Reload the file when is modified
+autocmd BufWritePost ~/.vim/config/** source $MYVIMRC | " Reload if any config file has been modified
 
 " Mappings
 noremap <Leader><Leader> :tabe ~/.vim/config/<CR>
