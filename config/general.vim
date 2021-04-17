@@ -17,6 +17,7 @@ set mouse=a				" Enable mouse in all modes
 set splitright				" Vertical split on the right
 set splitbelow				" Horizontal split on the bottom
 set undofile				" Enable persistent undo
+set clipboard=unnamed			" Enable yank/delete to system clipboard
 
 " Color scheme
 set background=dark
