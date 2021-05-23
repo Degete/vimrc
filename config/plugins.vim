@@ -22,6 +22,9 @@ runtime config/plugins/git/vim-fugitive.vim
 runtime config/plugins/git/vim-signify.vim
 "runtime config/plugins/git/git-blame.vim
 "runtime config/plugins/git/git-blamer.vim
+if has('nvim')
+	runtime config/plugins/git/lazygit.vim
+endif
 
 " Autocomplete
 runtime config/plugins/autocomplete/deoplete.vim
