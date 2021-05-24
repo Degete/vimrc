@@ -14,6 +14,10 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 Plug 'junegunn/fzf.vim'
 
+" Config
+let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
+let g:fzf_preview_window = ['right:70%']
+
 " Mappings
 nnoremap <Leader>g :Ag<CR> 
 nnoremap <C-p> :Files<CR>
