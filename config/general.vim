@@ -6,7 +6,7 @@ set ignorecase
 set smartcase
 set nocompatible
 set backspace=indent,eol,start		" Allow delete on insert mode
-set autochdir           		" Change to opened directory
+"set autochdir           		" Change to opened directory
 set incsearch           		" Incremental search
 set hidden              		" Allow buffers to be hidden if you have modified them
 set termguicolors       		" Enable true colors supports
