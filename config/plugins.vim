@@ -10,6 +10,9 @@ if has('vim')
 	Plug 'rhysd/vim-healthcheck'
 endif
 
+" Tabs
+Plug 'tpope/vim-sleuth'
+
 " Status line
 runtime config/plugins/statusline/vim-airline.vim
 "runtime config/plugins/statusline/lightline.vim
